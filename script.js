@@ -23,3 +23,18 @@ btn.addEventListener("click", (event)=>{
         .catch(()=>{
             alert(`Oh sorry ${name}. You aren't old enough.`);
         });
+
+    
+
+    // setTimeout(()=>{
+    //     new Promise((resolve,reject) =>{
+    //         if(age >18){
+    //                         resolve(alert(`Welcome, ${name}. You can vote.`));
+    //                     } 
+    //                     else{
+    //                         reject(alert(`Oh sorry ${name}. You aren't old enough.`))
+    //                     }
+    //     }).then((resolve)).catch((reject));
+    // },4000);
+    
+})
